@@ -39,9 +39,9 @@ trainset, testset, num_classes = L.load_dataset(params['data'], data_dir=params[
 X_train, y_train = F.get_samples(trainset, args.trainsamples)
 X_test, y_test = F.get_samples(testset, args.testsamples)
 if args.translatetrain:
-    X_train, y_train = F.translate2d(X_train, y_train, n=2, stride=4)
+    X_train, y_train = F.translate(X_train, y_train, stride=7)
 if args.translatetest:
-    X_test, y_test = F.translate2d(X_test, y_test, n=2, stride=4)
+    X_test, y_test = F.translate(X_test, y_test, stride=7)
 X_train, y_train = X_train.to(device), y_train.to(device)
 X_test, y_test = X_test.to(device), y_test.to(device)
 
