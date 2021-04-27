@@ -15,6 +15,14 @@ ReduNet is a deep neural network construcuted naturally by deriving the gradient
 ## Requirements
 This codebase is written for `python3`. To install necessary python packages, run `conda create --name redunet_official --file requirements.txt`.
 
+## Demo
+For a quick demonstration of ReduNet on Gaussian 2D or 3D cases, please visit the notebook by running one of the two commands: 
+
+```
+$ jupyter notebook ./examples/gaussian2d.ipynb
+$ jupyter notebook ./examples/gaussian3d.ipynb
+```
+
 ## Core Usage and Design
 The design of this repository aims to be easy-to-use and easy-to-intergrate to the current framework of your experiment, as long as it uses PyTorch. The `ReduNet` object inherents from `nn.Sequential`, and layers `ReduLayers`, such as `Vector`, `Fourier1D` and `Fourier2D` inherent from `nn.Module`. Loss functions are implemented in `loss.py`. Architectures and Dataset options are located in `load.py` file. Data objects and pre-set architectures are loaded in folders `dataset` and `architectures`. Feel free to add more based on the experiments you want to run. We have provided basic experiment setups, located in `train_<mode>.py` and `evaluate_<mode>.py`, where `<mode>` is the type of experiment. For utility functions, please check out `functional.py` or `utils.py`. Feel free to email us if there are any issues or suggestions. 
 
