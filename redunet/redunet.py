@@ -11,6 +11,7 @@ class ReduNet(nn.Sequential):
     
     def __init__(self, *modules):
         super(ReduNet, self).__init__(*modules)
+        self._init_loss()
 
     def init(self, inputs, labels):
         # Initialize the network. Using inputs and labels, it constructs 
