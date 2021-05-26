@@ -1,7 +1,7 @@
 # Deep Networks from the Principle of Rate Reduction
 This repository is the official PyTorch implementation of the paper [ReduNet: A White-box Deep Network from the Principle of Maximizing Rate Reduction](https://arxiv.org/abs/2105.10446) (2021) 
 
-by [Kwan Ho Ryan Chan](https://ryanchankh.github.io)* (UC Berkeley), [Yaodong Yu](https://yaodongyu.github.io/)* (UC Berkeley), [Chong You](https://sites.google.com/view/cyou)* (UC Berkeley), [Haozhi Qi](https://haozhi.io/) (UC Berkeley), [John Wright](http://www.columbia.edu/~jw2966/) (Columbia), and [Yi Ma](http://people.eecs.berkeley.edu/~yima/) (UC Berkeley). 
+by [Kwan Ho Ryan Chan](https://ryanchankh.github.io)* (UC Berkeley), [Yaodong Yu](https://yaodongyu.github.io/)* (UC Berkeley), [Chong You](https://sites.google.com/view/cyou)* (UC Berkeley), [Haozhi Qi](https://haozhi.io/) (UC Berkeley), [John Wright](http://www.columbia.edu/~jw2966/) (Columbia University), and [Yi Ma](http://people.eecs.berkeley.edu/~yima/) (UC Berkeley). 
 
 <!-- For the NumPy version of ReduNet, please go checkout: [https://github.com/ryanchankh/redunet_paper](https://github.com/ryanchankh/redunet_paper) -->
 
