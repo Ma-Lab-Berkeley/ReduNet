@@ -51,11 +51,11 @@ For code used to generate experimental empirical results listed in our paper, pl
 For technical details and full experimental results, please check the [paper](https://arxiv.org/abs/2010.14765). Please consider citing our work if you find it helpful to yours:
 
 ```
-@article{chan2020deep,
-  title={Deep networks from the principle of rate reduction},
+@article{chan2020redunet,
+  title={ReduNet: A White-box Deep Network from the Principle of Maximizing Rate Reduction},
   author={Chan, Kwan Ho Ryan and Yu, Yaodong and You, Chong and Qi, Haozhi and Wright, John and Ma, Yi},
-  journal={arXiv preprint arXiv:2010.14765},
-  year={2020}
+  journal={arXiv preprint arXiv:2105.10446},
+  year={2021}
 }
 ```
 
