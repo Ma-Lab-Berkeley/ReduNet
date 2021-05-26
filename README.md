@@ -48,7 +48,7 @@ $ python3 evaluate_forward.py --model_dir ./saved_models/forward/mnistvector+lay
 For code used to generate experimental empirical results listed in our paper, please visit our other repository: [https://github.com/ryanchankh/redunet_paper](https://github.com/ryanchankh/redunet_paper)
 
 ## Reference
-For technical details and full experimental results, please check the [paper](https://arxiv.org/abs/2010.14765). Please consider citing our work if you find it helpful to yours:
+For technical details and full experimental results, please check the [paper](https://arxiv.org/abs/2105.10446). Please consider citing our work if you find it helpful to yours:
 
 ```
 @article{chan2020redunet,
